@@ -15,6 +15,15 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/main.css">
+  <style>
+  #vanta-bg {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+  }
+  </style>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,10 +31,12 @@
 </head>
 
 <body class="bg-body homepage post-template" data-bs-spy="scroll" data-bs-target="#header-nav" tabindex="0">
-  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+   <div id="vanta-bg"></div>
+  
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
     <defs>
       <!-- delted social media symbols -->
-       <symbol xmlns="http://www.w3.org/2000/svg" id="instagram" viewBox="0 0 15 15">
+       <symbol xmlns="http://www.w3.org/2000/svg" id="linkedin" viewBox="0 0 15 15">
         <path fill="none" stroke="currentColor"
           d="M11 3.5h1M4.5.5h6a4 4 0 0 1 4 4v6a4 4 0 0 1-4 4h-6a4 4 0 0 1-4-4v-6a4 4 0 0 1 4-4Zm3 10a3 3 0 1 1 0-6a3 3 0 0 1 0 6Z" />
       </symbol>
@@ -33,6 +44,8 @@
   </svg>
 
   <a class="menu-btn"><span></span></a>
+
+  
 
   <div class="container-fluid overflow-hidden">
 
@@ -49,7 +62,7 @@
             <ul class="menu-list list-unstyled">
               <li><a href="#home" class="nav-link">Home</a></li>
               <li><a href="#about" class="nav-link">About</a></li>
-              <li><a href="#experience" class="nav-link">Experience</a></li>
+              <li><a href="#experience" class="nav-link">Expereince</a></li>
               <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
               <li><a href="#contact" class="nav-link">Contact</a></li>
               <!-- deleted pages and Get PRO -->
@@ -58,14 +71,12 @@
         </div>
         <div class="mt-5">
           <div class="email-links">
-            <a href="mailto:contact@yoursite.com" class="py-3 my-3 border-bottom d-flex">contact@yoursite.com</a>
+            <a href="mailto:25c.joy.b@gmail.com" class="py-3 my-3 border-bottom d-flex" style="color: #002c5a;">25c.joy.b@gmail.com</a>
           </div>
           <ul class="list-unstyled d-flex justify-content-start flex-wrap gap-3">
             <li>
-              <a href="#" class="text-dark">
-                <svg width="24" height="24" viewBox="0 0 24 24">
-                  <use xlink:href="#instagram"></use>
-                </svg>
+              <a href="https://www.linkedin.com/in/caroline-burger-/" class="text-dark">
+                <img src="images/Linkedin-Logo-2011.png" alt="linkLogo" class="img-fluid" style="width: 100px; height: 50px;">
               </a>
             </li>
           </ul>
@@ -84,15 +95,15 @@
 
           <section id="home" class="py-5 bg-text" data-text="01">
             <div class="row">
-              <div class="col-lg-6">
+              <div class="col-lg-5">
                 <div class="banner-image text-center" data-aos="fade-right">
                   <img src="images/banner-image.png" alt="banner" class="img-fluid" class="img-fluid">
                 </div>
               </div>
-              <div class="col-lg-6">
+              <div class="col-lg-7">
                 <div class="banner-content my-1 pt-1 my-lg-5 pt-lg-5" data-aos="fade-in">
                   <span class="text-muted text-uppercase">Designer / Developer</span>
-                  <h1 class="banner-title display-xl lh-1 txt-fx slide-up">Caroline Burger</h1>
+                  <h1 class="banner-title display-xl 1h txt-fx slide-up">CarolineBurger</h1>
                 </div>
               </div>
             </div>
@@ -128,7 +139,6 @@
           <section id="about" class="my-5 py-5 bg-text" data-text="02">
             <div class="row d-flex flex-wrap" data-aos="fade-up">
               <div class="col-lg-6 pb-5">
-                <span class="text-muted text-uppercase">BIODATA</span>
                 <h2 class="display-4 txt-fx slide-up">Education</h2>
                 <div class="data-info py-3" data-aos="fade-up">
                   <span class="meta-date">1998 - 2004</span>
@@ -141,7 +151,7 @@
                   <p>Harvard School of Science and management</p>
                 </div>
               </div>
-              <div class="col-lg-6 pb-5">
+              <!-- <div class="col-lg-6 pb-5">
                 <h2 class="display-4 txt-fx slide-up">Experiences</h2>
                 <div class="data-info py-3" data-aos="fade-up" data-aos-delay="200">
                   <span class="meta-date">2007 - 2012</span>
@@ -153,7 +163,7 @@
                   <h3 class="info-title">Studio Alpha.: Project Manager</h3>
                   <p>iacentem substantiales um se sed esse haec Possit facis qui a a a patriam.</p>
                 </div>
-              </div>
+              </div> -->
             </div>
             <div class="row d-flex flex-wrap" data-aos="fade-up">
               <div class="col-lg-6 pb-5">
@@ -198,18 +208,6 @@
                 <div class="info-element py-4" data-aos="fade-up">
                   <table class="table">
                     <tbody>
-                      <tr>
-                        <th>Age</th>
-                        <td>22</td>
-                      </tr>
-                      <tr>
-                        <th>Residence</th>
-                        <td>United States</td>
-                      </tr>
-                      <tr>
-                        <th>Address</th>
-                        <td>A City, Florida, 32104</td>
-                      </tr>
                       <tr>
                         <th>E-mail</th>
                         <td><a href="#">hello@yourwebsite.com</a></td>
@@ -453,6 +451,23 @@
     crossorigin="anonymous"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+  <script>
+    VANTA.BIRDS({
+    el: "#vanta-bg",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    backgroundColor: 0x4dcfd9,
+    birdSize: 1.90,
+    quantity: 3.00
+    })
+  </script>
 </body>
 
 </html>
