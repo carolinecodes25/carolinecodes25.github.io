@@ -297,6 +297,10 @@ a {
   line-height: var(--heading-line-height);
 }
 
+.banner-title {
+  font-size: clamp(2.5rem, 6vw, 6rem);
+}
+
 /* mobile menu */
 /*----- Header Menu
 --------------------------------------------------------------*/
