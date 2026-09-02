@@ -16,6 +16,8 @@
   --bs-body-line-height: 1.7;
   --bs-body-color: #333;
   --bs-body-color-rgb: 51, 51, 51;
+  --bs-body-bg: #c3edf5;
+  --bs-body-bg-rgb: 223, 246, 250;
 
   --bs-primary: #FF534A;
   --bs-primary-dark: #d33a32;
@@ -354,7 +356,7 @@ a {
   top: 8px;
 }
 #header-nav {
-  background: #36b1bb !important;
+  background: #54c8d1 !important;
 }
 
 header {
