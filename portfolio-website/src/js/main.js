@@ -34,7 +34,7 @@
 
   // Portfolio Slider
   var swiper = new Swiper(".portfolio-Swiper", {
-    slidesPerView: 4,
+    slidesPerView: 2,
     spaceBetween: 30,
     pagination: {
       el: ".swiper-pagination",
@@ -42,14 +42,14 @@
     },
     breakpoints: {
       300: {
-        slidesPerView: 2,
+        slidesPerView: 1,
       },
       768: {
         slidesPerView: 2,
         spaceBetween: 20,
       },
       1700: {
-        slidesPerView: 3,
+        slidesPerView: 2,
         spaceBetween: 30,
       },
     },
