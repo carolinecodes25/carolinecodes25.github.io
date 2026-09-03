@@ -176,13 +176,13 @@ a {
   --bs-accordion-btn-padding-x: 0;
   --bs-accordion-btn-padding-y: 1rem;
   --bs-accordion-btn-color: var(--bs-dark);
-  --bs-accordion-btn-bg: transparent;
+  --bs-accordion-btn-bg: #ffffff;
   --bs-accordion-btn-focus-border-color: var(--bs-dark);
   --bs-accordion-btn-focus-box-shadow: none;
   --bs-accordion-body-padding-x: 0;
   --bs-accordion-body-padding-y: 1rem;
   --bs-accordion-active-color: var(--bs-dark);
-  --bs-accordion-active-bg: transparent;
+  --bs-accordion-active-bg: #ffffff;
 }
 
 .accordion-button {
